@@ -18,7 +18,7 @@
 </head>
 
 <body>
-  <a-scene id="scene">
+  <a-scene id="scene" inspector-plugin-recast>
 
     <!--Recursos-->
     <a-assets>
@@ -42,12 +42,12 @@
     <a-entity light="type: directional; color: #EEE; intensity: 1" position="-1 1 0"></a-entity>
 
     <!--Cámara y cursor-->
-    <a-entity id="camera" camera position="0 1.6 0" wasd-controls look-controls="pointerLockEnabled: false">
+    <!--<a-entity id="camera" camera position="0 1.6 0" wasd-controls look-controls="pointerLockEnabled: false">
       <a-entity id="weapon" gltf-model="#shooter" position="0 -4.4 3" rotation="0 180 0" scale="0.35 1 1"
         player-movement>
       </a-entity>
       <a-cursor></a-cursor>
-    </a-entity>
+    </a-entity>-->
 
     <!--Balas-->
     <a-entity bullets></a-entity>

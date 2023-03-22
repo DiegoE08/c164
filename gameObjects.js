@@ -107,9 +107,9 @@ AFRAME.registerComponent("boxes", {
       var box = document.createElement("a-entity");
 
       //Actualizar los valores de las variables de posición de con los valores de la matriz
-      posX ;
-      posY ;
-      posZ ;
+      posX = px[i];
+      posY = 1.5;
+      posZ = pz[i];
 
       position = { x: posX, y: posY, z: posZ };
 
